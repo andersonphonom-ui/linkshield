@@ -3,7 +3,7 @@ from rich.console import Console
 console = Console()
 
 def show_banner():
-    console.print("""[bold cyan]
+    console.print(r"""[bold cyan]
  _     _       _     ____  _     _      _     _ 
 | |   (_)_ __ | | __/ ___|| |__ (_) ___| | __| |
 | |   | | '_ \| |/ /\___ \| '_ \| |/ _ \ |/ _` |
