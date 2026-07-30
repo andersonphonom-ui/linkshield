@@ -111,7 +111,7 @@ Each detected indicator adds points to a risk score (0–100):
 
 **Youssef Mediouni**
 - YouTube: [PH4nt0m CYber](https://youtube.com/@PH4nt0mCYber)
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [@andersonphonom-ui]
 
 ---
 
