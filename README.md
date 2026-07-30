@@ -28,9 +28,11 @@
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/linkshield.git
+git clone https://github.com/andersonphonom-ui/linkshield.git
 cd linkshield
-pip install -r requirements.txt
+pip install -r requirements.txt --break-system-packages
+sudo cp main.py banner.py scanner.py /usr/local/bin/
+sudo chmod +x /usr/local/bin/linkshield
 ```
 
 ---
@@ -38,7 +40,7 @@ pip install -r requirements.txt
 ## 🚀 Usage
 
 ```bash
-python main.py
+linkshield
 ```
 
 Then enter any URL when prompted:
