@@ -12,8 +12,8 @@ from rich.console import Console
 from rich.table import Table
 from rich import box
 
-from banner import show_banner
-from scanner import (
+from linkshield_banner import show_banner
+from linkshield_scanner import (
     get_ip,
     check_status,
     get_response_time,
