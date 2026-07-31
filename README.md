@@ -30,9 +30,15 @@
 ```bash
 git clone https://github.com/andersonphonom-ui/linkshield.git
 cd linkshield
+
 pip install -r requirements.txt --break-system-packages
-sudo cp main.py banner.py scanner.py /usr/local/bin/
+
+sudo cp main.py /usr/local/bin/linkshield
+sudo cp linkshield_banner.py linkshield_scanner.py /usr/local/bin/
+
 sudo chmod +x /usr/local/bin/linkshield
+
+linkshield --version
 ```
 
 ---
